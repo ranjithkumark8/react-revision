@@ -1,0 +1,38 @@
+NPM - It's a package manager, all the packeages are hosted here. 
+What is a parcel/webpack? why do we need it?
+create-react-app uses webpack in the backend 
+ parcel is used to pack all the files with html,css and Javascript it is like a bundler. 
+ veet is alterantive to other things. 
+
+
+We have 2 types of dependencies?
+1. dev dependencies -  required only in developments and normal dependencies required in all the cases like production and in general 
+
+difference between package.json and package-lock.json?
+package-lock.json - keeps the recors of version which is installed 
+
+transtative dependencies - for example if we install parcel and it might have some other dependencies so all these dependencies are called 
+transtative dependencies
+
+npx will excute respective package
+
+
+#parcel 
+-Dev build
+- local server
+- HMR = Hot module Replacement
+- file watching algorithm - written in c++
+- Faster build due to cache things 
+- Image optimazation 
+-  Minification of all files for production
+-  Bundling things all related files
+- Compressing files 
+- Consistent Hashing
+- Code Splitting 
+- Differential Bundling - Takes care of supporting older browsers also 
+- Diagnostic - it shows buitiful errors 
+- Error handling - Error handling things 
+- Https - parcel gives feature to host things 
+- Tree shaking - remove unused code 
+- different dev and prod bundles
+ 
